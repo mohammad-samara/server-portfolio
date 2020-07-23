@@ -2179,12 +2179,22 @@ button,
 
 /* modified by samara */
 #top header h2{
-color: rgb(235, 221, 96) !important;
+color: rgb(18, 75, 4) !important;
 }
 #top header p{
 color: rgb(119, 148, 82);
+font-weight: 500;
 }
 
 #about p{
     font-family: 'Indie Flower', cursive;
+}
+
+#video-contain{
+    margin-top: -430px;
+    z-index: 1;
+}
+#top div.container{
+    position: relative;
+    z-index: 2;
 }
