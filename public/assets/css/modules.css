@@ -2192,7 +2192,9 @@ font-weight: 500;
 
 #video-contain{
     margin-top: -430px;
+    z-index: 1;
 }
 #top div.container{
     position: relative;
+    z-index: 2;
 }
