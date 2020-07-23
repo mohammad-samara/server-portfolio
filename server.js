@@ -33,7 +33,7 @@ app.get('/test', (request, response) =>{
 });
 
 // to view an array of objects called cars when route is carsdata
-app.get('/test', (request, response) =>{
+app.get('/car', (request, response) =>{
   let cars=[
     {name: 'BMW'},
     {name: 'Ford'},
