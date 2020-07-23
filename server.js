@@ -1,9 +1,9 @@
 'use strict';
 
-////require('dotenv').config();     // not taken in class
+require('dotenv').config();     // not taken in class
 // declaring a variable to use express library
 const express = require('express');
-///const { request } = require('http');  // not taken in class
+const { request } = require('http');  // not taken in class
 const { response } = require('express');
 // initializing the server
 const app = express();   // could replace "app" with "server" but you need to modify the whole code
